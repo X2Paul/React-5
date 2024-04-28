@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.activeLink,
+nav .active:hover{
+color: darkblue;
+outline: solid darkblue;
+}
+
+nav {
+  margin-top: 10px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+h1{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.link{
+  text-decoration: none;
+  display: block;
+  padding: 12px;
+  border: 2px;
+  border-radius: 10px;
+  background: linear-gradient(20deg, #A9A9F2, #E6E6FA);
+  box-shadow: 10px 5px 5px grey;
+}
